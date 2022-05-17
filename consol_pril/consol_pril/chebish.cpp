@@ -79,7 +79,6 @@ void Cheb::init_params()
 	min = -4 * tmph * pow(sin(pi / (2.0 * n)), 2) - 4 * tmpk * pow(sin(pi / (2.0 * m)), 2);
 	max = -4 * tmph * pow(cos(pi / (2.0 * n)), 2) - 4 * tmpk * pow(cos(pi / (2.0 * m)), 2);
 
-	K = 8;
 
 	tau = TVector<double>(K);
 

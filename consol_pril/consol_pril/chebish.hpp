@@ -72,6 +72,8 @@ public:
 		n = N;
 		m = M;
 
+		pi = 3.14;
+
 		K = 8;
 
 		x_gran = ab; y_gran = cd;
